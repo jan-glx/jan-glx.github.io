@@ -9,11 +9,11 @@ minimal_mistakes_skin    : "default" # "default", "air", "contrast", "dark", "di
 
 # Site Settings
 locale                   : "en"
-title                    : "Federico Fuentes"
+title                    : "John Hawkins"
 title_separator          : "-"
-name                     : "Federico Fuentes Caycedo"
-description              : "Federico Fuentes' personal website"
-url                      : "https://federicofuentes.github.io" # should not end with /
+name                     : "John Hawkins"
+description              : "John Hawkins' personal website"
+url                      : "https://hawkjo.github.io" # should not end with /
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -79,11 +79,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Federico Fuentes"
+  name             : "John Hawkins"
   avatar           : "/assets/images/EdinburgSquare.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Applied mathematics, computational mechanics, numerical analysis, finite element methods, fluid mechanics, hydrodynamic stability"
   location         : "Austin, Texas"
-  email            : "federico@ices.utexas.edu"
+  email            : "hawkjo@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
@@ -91,16 +91,16 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "federicofuentes"
+  github           : "hawkjo"
   gitlab           :
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "federicofuentes" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  linkedin         : "hawkjo" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
   soundcloud       :
-  stackoverflow    : "2683646/federico" # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
+  stackoverflow    : "3019508/hawkjo" # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
   twitter          :
