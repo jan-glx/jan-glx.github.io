@@ -12,7 +12,7 @@ locale                   : "en"
 title                    : "John Hawkins"
 title_separator          : "-"
 name                     : "John Hawkins"
-description              : "John Hawkins' personal website"
+description              : "John Hawkins's personal website"
 url                      : "https://hawkjo.github.io" # should not end with /
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -81,7 +81,7 @@ analytics:
 author:
   name             : "John Hawkins"
   avatar           : "/assets/images/EdinburgSquare.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Applied mathematics, computational mechanics, numerical analysis, finite element methods, fluid mechanics, hydrodynamic stability"
+  bio              : "Computational molecular biology, high-throughput DNA sequencing, high-dimensional analysis, machine learning, mathematical modeling, visualization"
   location         : "Austin, Texas"
   email            : "hawkjo@gmail.com"
   uri              :
