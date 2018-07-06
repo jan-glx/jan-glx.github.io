@@ -52,10 +52,10 @@ uncertainty in the location of the end of the barcode. So, I developed and exper
 Filled/truncated Right End Edit (FREE Barcodes). Because FREE barcodes correctly account for the
 kinds of errors seen in DNA barcodes, they are able to correct errors with higher accuracy than
 previous methods, using fewer bp for the same number of barcodes. I generated a single-error
-correcting barcode library with </geq> 10<sup>6</sup> unique barcodes. And due to their
+correcting barcode library with &gt;10<sup>6</sup> unique barcodes. And due to their
 construction, FREE barcodes can be easily concatenated. This allows for combinatorially large
 barcode libraries and/or arbitrarily low error rates with different strategies. These are
-demonstrated with an example library with </geq>10<sup>15</sup> barcodes and an example library
+demonstrated with an example library with &gt;10<sup>15</sup> barcodes and an example library
 with error rates of 10<sup>-19</sup>. 
 
 
@@ -63,7 +63,7 @@ with error rates of 10<sup>-19</sup>.
 ## Bat Phylogenetics and Positive Selection
 <figure>
   <img src="/assets/images/dNdS.png" alt="">
-  <figcaption> Positive selection analysis for </geq>11,000 Chiropteran gene families. </figcaption>
+  <figcaption> Positive selection analysis for &gt;11,000 Chiropteran gene families. </figcaption>
 </figure>
 Bats, order Chiroptera, is one of the most interesting and diverse orders of mammals. Not only are
 they intereesting due to their ability to fly and echolocate, but they are of interest to human
@@ -73,7 +73,7 @@ give us insight into how these viruses function in their natural hosts, leading 
 combatting these diseases. I took on the challenge of performing an order Chiroptera meta-analysis
 of publically available DNA sequencing data and novel data we sequenced ourselves to perform
 phylogenetic and positive selection analyses. Positive selection, indicated by a dN/dS statistic
-value </geq>1, is a hallmark of genes and pathways which are subject to viral antagonism. We
+value &gt;1, is a hallmark of genes and pathways which are subject to viral antagonism. We
 identified 299 such genes, which will be of interest for further investigation by the virology
 community. My collaborators have, in fact, already used the sequences of one gene family, NPC1, to
 identify one of the key amino acids in the host NPC1 protein which acts as a barrier to cell entry
