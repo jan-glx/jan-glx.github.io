@@ -28,7 +28,7 @@ amount of bench work. My current research is in developing novel techniques for 
 CRISPR family of proteins, with the long-term goal of helping making gene-editing techniques safe
 for clinical use.  I work with a team from the Finkelstein lab to develop high-throughput methods
 for looking at millions of CRISPR-DNA interactions in parallel.  This includes the Chip-Hybridized
-Affinity Mapping Platform (CHAMP), which repurposes Next Generation Sequencing chips to perform
+Association Mapping Platform (CHAMP), which repurposes Next Generation Sequencing chips to perform
 massively parallel assays on sequenced DNA, as well as new methods currently in development.  Along
 the way, I realized we needed higher-performing DNA barcodes than were available with current
 methods, i.e.  more barcodes using fewer bases with better error-correction properties and thus
