@@ -13,7 +13,8 @@ author_profile: true
 I just completed my Ph.D. in computational and applied mathematics at the [Institute for
 Computational Engineering and Sciences (ICES)](https://www.ices.utexas.edu/) in the The University
 of Texas at Austin, where I am supervised by [William H. Press](numerical.recipes) and [Ilya J.
-Finkelstein](finkelsteinlab.org). I am looking for postdoctoral opportunities at the moment. <br>
+Finkelstein](finkelsteinlab.org). I am looking for postdoctoral opportunities in computational
+molecular biology at the moment. 
 
 I was awarded the Computational Science, Engineering, and Mathematics Fellowship for my studies at
 ICES, where I obtained my Masters and Ph.D. degrees. I previously earned a B.S. in Mathematics, a
