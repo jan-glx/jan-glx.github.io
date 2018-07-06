@@ -6,23 +6,38 @@ permalink: /
 author_profile: true
 ---
 
-<img src="/assets/images/P1110853.jpg" width="340px" alt="Federico Fuentes Caycedo" align="right" />
+<img src="/assets/images/IMG_1604.jpg" width="340px" alt="John Hawkins" align="right" />
 
 # About
 
-I am a Ph.D. candidate in computational and applied mathematics at the [Institute for Computational Engineering and Sciences (ICES)](https://www.ices.utexas.edu/) in the The University of Texas at Austin, where I am supervised by [Professor Leszek Demkowicz](http://users.ices.utexas.edu/~leszek/). I plan to graduate in May of 2018 and am looking for postdoctoral opportunities at the moment. <br>
+I just completed my Ph.D. in computational and applied mathematics at the [Institute for
+Computational Engineering and Sciences (ICES)](https://www.ices.utexas.edu/) in the The University
+of Texas at Austin, where I am supervised by [William H. Press](numerical.recipes) and [Ilya J.
+Finkelstein](finkelsteinlab.org). I am looking for postdoctoral opportunities at the moment. <br>
 
-I was a [Geophysical Fluid Dynamics fellow](http://www.whoi.edu/gfd/) at the Woods Hole Oceanographic Institution (WHOI) in 2017.
-Previously, I obtained a M.Sc. in computational methods in aeronautical engineering from Imperial College London, and bachelor's degrees in both mathematics and mechanical engineering from the Universidad de los Andes (Colombia).
+I was awarded the Computational Science, Engineering, and Mathematics Fellowship for my studies at
+ICES, where I obtained my Masters and Ph.D. degrees. I previously earned a B.S. in Mathematics, a
+B.S.E in Mechanical Engineering, and a B.A. in Humanities at Walla Walla University in Walla Walla,
+Washington.
 
-My research lies in the interdisciplinary intersection of mathematics, physics, engineering and computational science.
-More specifically, I do research in computational mathematics that involves numerical analysis and nonlinear dynamics.
-Within numerical analysis, I am interested in finite element methods and applied functional analysis.
-In the last few years, I have helped develop some of the latest advances in discontinuous Petrov-Galerkin (DPG) methods, which are very effective at solving partial differential equations (PDEs), and have many physical applications.
-Within nonlinear dynamics, I like to study hydrodynamic stability of classical flows, like plane Couette flow.
-Here, (fluid) dynamical systems are posed in the form of a semidefinite program (SDP) with sum-of-squares (SoS) constraints, and then a computer is used to derive some important stability properties of the dynamical system.
-Learn more details about my research [here](/research/).
+My research is centered around developing high-throughput methods and results in molecular biology.
+The gold rush in molecular biology for exponentially improved insights and methods is in full
+swing, and I love being a part it.  My current research is in developing novel techniques for
+characterizing the CRISPR family of proteins, with the long-term goal of helping making
+gene-editing techniques safe for clinical use.  I work with a team from the Finkelstein lab to
+develop high-throughput methods for looking at millions of CRISPR-DNA interactions in parallel.
+This includes the Chip-Hybridized Affinity Mapping Platform (CHAMP), which repurposes Next
+Generation Sequencing chips to perform massively parallel assays on sequenced DNA, as well as new
+methods currently in development.  Along the way, I realized we needed higher-performing DNA
+barcodes than were available with current methods, i.e. more barcodes using fewer bases with better
+error-correction properties and thus fewer demultiplexing errors. So, I developed the current state
+of the art DNA barcodes from first principles: Filled/truncated Right End Edit (FREE) barcodes. And
+I have also performed large-scale genomic and transcriptomic analyses to find gene families,
+construct phylogenies, and perform positive selection analysis in bats, with the goal of helping
+find genes and pathways which enable bats to to harbor several deadly human viruses.  Learn more
+details about my research [here](/research/).
 
-When I'm not doing research I'm probably either playing or watching "fútbol".
-My clock definitely stops ticking every four years for the World Cup.
-In my free time I also love to watch movies and TV series (advanced user: several thousand hours under my belt), browse youtube, read the news, enjoy books, and watch other sporting events like tennis (all hail Roger Federer) and baseball (go Cards!).
+When I'm not doing research, my favorite thing in the world is to see the world. I love travelling
+and learning languages. Closer to home, nothing beats weekend BBQ's with friends in the back yard.
+I also love listening to podcasts and audiobooks while going for walks. Shout out to 99 Percent
+Invisible, More Perfect by RadioLab, and the Harry Potter books as read by Stephen Fry.
