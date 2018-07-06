@@ -6,7 +6,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-Most of my publications should be indexed in my [Google Scholar profile](https://scholar.google.com/citations?user=1TBfCsUAAAAJ&hl=en). As we all know, sometimes Google Scholar doesn't update correctly, so I will try to keep the most recent version of my publications here as well (published articles, articles in press, and preprints). Additionally, many of my preprints can be consulted in [arXiv.org](https://arxiv.org/find/math/1/au:+Fuentes_Federico/0/1/0/all/0/1) and [ResearchGate](https://www.researchgate.net/profile/Federico_Fuentes).
+Most of my publications should be indexed in my [Google Scholar profile](https://scholar.google.com/citations?user=jBffF0MAAAAJ&hl=en). As we all know, sometimes Google Scholar doesn't update correctly, so I will try to keep the most recent version of my publications here as well (published articles, articles in press, and preprints). Additionally, many of my preprints can be consulted in [arXiv.org](https://arxiv.org/find/math/1/au:+Fuentes_Federico/0/1/0/all/0/1) and [ResearchGate](https://www.researchgate.net/profile/Federico_Fuentes).
 
 ## Journal articles
 
