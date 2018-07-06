@@ -10,9 +10,8 @@ author_profile: true
 
 ### Teaching Assistant
 
-- Public Policy and the Digitally Native Technologist (2016, William H. Press)
-- Public Policy and the Digitally Native Technologist (2015, William H. Press)
-- Bio methods (2015, Marc Lewis)
-- Biostatistics (2014, William H. Press)
-- Biostatistics (2013, William H. Press)
-- Numerical Methods for Applications (2017, Todd Arbogast, [M 368K](http://catalog.utexas.edu/undergraduate/natural-sciences/courses/mathematics/))
+- Public Policy and the Digitally Native Technologist (2016, William H. Press, [CS378H](http://wpressutexas.net/cs378h/index.php?title=CS378H_Public_Policy_and_the_Digitally_Native_Technologist))
+- Problem Solving: Molecular Biology/Epidemiology (2015, Marc Lewis, TC357)
+- Public Policy and the Digitally Native Technologist (2015, William H. Press, [CS378H](http://wpressutexas.net/cs378h/index.php?title=CS378H_Public_Policy_and_the_Digitally_Native_Technologist))
+- Statistical and Discrete Methods for Scientific Computing (2014, William H. Press, [CSE383M](http://wpressutexas.net/coursewiki/index.php?title=Main_Page))
+- Statistical and Discrete Methods for Scientific Computing (2013, William H. Press, [CSE383M](http://wpressutexas.net/coursewiki/index.php?title=Main_Page))
