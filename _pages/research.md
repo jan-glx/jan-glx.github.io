@@ -9,92 +9,72 @@ toc_label: "Research"
 toc_icon: "gear"
 ---
 
-I am a mathematical scientist and computational mechanician, and my research lies in the interdisciplinary intersection of mathematics, physics, engineering and computational science.
-Currently I have two main lines of research:
-- Numerical analysis, and more specifically, finite element analysis, where numerical methods are developed to solve partial differential equations (PDEs) using a computer.
-- Applied nonlinear dynamics, particularly hydrodynamic stability of incompressible fluid systems, where important properties are studied with the aid of a computer via semidefinite programs (SDPs) with sum-of-square (SoS) constraints. 
+I am a computational molecular biologist and a mathematical scientist. Currently, my research is in
+three areas:
+- Massively parallel characterization of CRISPR specificity and "off-target" effects.
+- High-efficiency indel-correcting DNA barcodes
+- Bat transcriptomics, phylogenetic history, and positive selection.
 
-## Finite element analysis
 
-<!-- Various PDEs arising from different physical phenomena may be solved numerically with a computer via finite element methods, where the domain is broken into a mesh of elements of different shapes. 
-For these methods to be effective, they must be proved to converge, so that the numerical solution obtained by the computer is shown to approach the exact solution of the PDE as the mesh is refined. 
-High-order discretizations of the mesh are valuable in many applications, as are spatial refinements of the domain, especially when they occur adaptively around a particular area of interest. -->
-
-I focus on many aspects of finite element analysis, and have developed, both in terms of software and the underlying mathematics, several finite element methods which are characterized by having:
-- High-order convergence (heirarchical high-order discretizations for different element shapes and "energy" spaces).
-- Proofs of numerical stability (inf-sup conditions satisfied for variational formulations).
-- Adaptivity (so the meshes spatially refine in a particular area of interest).
-- Desirable linear algebra properties to exploit in solvers.
-
-Some highlights are shown next.
-
-### High-order discretizations
-
+## CRISPR Specificity: CHAMP
 <figure>
-  <img src="/assets/images/ResearchShapeFunctions.png" alt="">
-  <figcaption>Unified construction of high-order hierarchical discretizations of <em>H</em><sup>1</sup>, <em>H</em>(curl), <em>H</em>(div) and <em>L</em><sup>2</sup> by systematically projecting to faces and edges. </figcaption>
+  <img src="/assets/images/CHAMP_abstract.png" alt="">
+  <figcaption> Graphical abstract of the Chip-Hybridized Association Mapping Platform (CHAMP). </figcaption>
 </figure>
-Developed a unified and systematic approach to constructing arbitrary high-order conforming discretizations of the traditional Sobolev spaces lying in a differential de Rahm sequence (<em>H</em><sup>1</sup>, <em>H</em>(curl), <em>H</em>(div) and <em>L</em><sup>2</sup>) for each of the "standard" element shapes: tetrahedra,hexahedra, triangular prisms and pyramids. 
-The code can be found [here](https://github.com/libESEAS/ESEAS).
+The past few years have seen a revolution in gene-editing technology thanks to the discovery and
+development of the CRISPR family of proteins. But wild type CRISPR proteins are known to
+occasionally cut DNA in unintended locaitons, potentially causing new diseases. Before CRISPR can
+be used for human medicine, we need better understanding and control of its DNA targeting to ensure
+it does exactly and only what we want it to.  I worked with a team from the Finkelstein lab to
+develop the Chip-Hybridized Association Mapping Platform (CHAMP) a massively parallel platform for
+characterizing protein-DNA binding interactions. It works by recovering Illumina sequencing chips
+after sequencing and purforming further biochemical assays on the sequenced DNA. We used this
+platform to interrogate the target specificity of the most common CRISPR system in nature, the
+CRISPR Cascade complex. We fully characterized an extended 6 bp PAM, and found a novel periodic
+reduction of specificity every 3 + 6*n* bases. We also we able to use our method to look at the
+binding specificity for a CRISPR protein across an entire human exome for the first time. This
+technique can be used in a clinical setting to verify *in vitro* the safety of a proposed
+gene-therapy treatment on a per-patient basis.
 
-### Discontinuous Petrov-Galerkin (DPG) methods in elasticity and viscoelasticity
 
+## High-fidelity Barcoding: FREE Barcodes
 <figure>
-  <img src="/assets/images/ResearchElasticity.png" alt="">
-  <figcaption>Linear elasticity in the L-shape domain solved with different DPG variational formulations, all converging, but displaying different refinement patterns (left). Sheathed hose composed of a thick inner layer of rubbber, and a very thin outer layer of steel (middle). It was solved using a coupled linear elasticity DPG method which is robust in the incompressible limit inside the rubber subdomain and computationally cheap in the steel layer (right). </figcaption>
+  <img src="/assets/images/BarcodePacking.png" alt="">
+  <figcaption> Sphere packing and error-correcting FREE barcodes.</figcaption>
 </figure>
+DNA barcodes, short DNA sequences used to label individual biomolecules in pooled populations, are
+ubiquitous throughout modern biology. This simple technology has enabled the development of
+exciting new assays such as single-cell RNA sequencing and massively parallel drug screening.
+However, DNA barcodes are subject to standard DNA errors: substitutions, insertions, and deletions.
+Previous methods have used Hamming or Levenshtein distance to try to correct some of these errors,
+but neither of these metrics correctly accounts for insertions and deletions in DNA barcodes due to
+uncertainty in the location of the end of the barcode. So, I developed and experimentally validated
+Filled/truncated Right End Edit (FREE Barcodes). Because FREE barcodes correctly account for the
+kinds of errors seen in DNA barcodes, they are able to correct errors with higher accuracy than
+previous methods, using fewer bp for the same number of barcodes. I generated a single-error
+correcting barcode library with </geq> 10<sup>6</sup> unique barcodes. And due to their
+construction, FREE barcodes can be easily concatenated. This allows for combinatorially large
+barcode libraries and/or arbitrarily low error rates with different strategies. These are
+demonstrated with an example library with </geq>10<sup>15</sup> barcodes and an example library
+with error rates of 10<sup>-19</sup>. 
 
-Disontinuous Petrov-Galerkin (DPG) methods are crafted to be stable for any linear well-posed variational formulation of a PDE.
-We showed their applicability by solving the equations of linear elasticity with various variational formulations, some being fast, others being slower, but robust in the near-incompressible limit.
-We also derived DPG methods that combine different formulations, as they are useful in physical problems like racing-engine hoses and biomedical devices.
-Using DPG methods, we also successfully validated data from dynamic mechanical analysis (DMA) calibration experiments involving viscoelastic materials to within 5% of the quantity of interest.
 
+
+## Bat Phylogenetics and Positive Selection
 <figure>
-  <img src="/assets/images/ResearchDMAViscoelasticity.png" alt="">
-  <figcaption>Experimental setup of DMA calibration experiments (left) which were then adaptively simulated using a DPG method (mid-right). By post-processing the central clamp force, the manufacturer's calibration model was validated to within 5% of experimental measurements (right). </figcaption>
+  <img src="/assets/images/dNdS.png" alt="">
+  <figcaption> Positive selection analysis for </geq>11,000 Chiropteran gene families. </figcaption>
 </figure>
-
-### Discrete least-squares (DLS) finite element methods
-
-<figure>
-  <img src="/assets/images/ResearchDLS.png" alt="">
-  <figcaption>Numerically stable FEMs posed as a discrete least-squares (DLS) problem that deals directly with rectangular matrices (left). Using DLS FEMs, conditioning of near-resonant acoustics was shown to grow as <em>O</em>(<em>h</em><sup>-1</sup>), and the solution was found to converge even when traditional methods started to diverge (right). </figcaption>
-</figure>
-
-As an outgrowth of DPG methods, we exploited not only that DPG methods have positive definite stiffness matrices, but that they are a product of the transpose of a known rectangular matrix times itself.
-Thus, it can be posed as a discrete-least squares problem and solved with much better conditioning properties via QR-based solvers.
-These are very suitable for ill-conditioned problems, like near-resonant acoustics.
-
-### High-order polygonal DPG (PolyDPG) methods
-
-<figure>
-  <img src="/assets/images/ResearchPolyDPG.png" alt="">
-  <figcaption>PolyDPG methods solve Poisson's equation using general polygonal elements including highly distorted concave elements (left), and even discontinuous material properties relevant in geophysics (middle). Polygonal refinement strategies are not limited to quadtree meshes and perform comparably with traditional methods (right). </figcaption>
-</figure>
-
-As another outgrowth of DPG methods, we developed high-order polygonal DPG (PolyDPG) methods by taking advantage of the properties of ultraweak formulations.
-These methods are compatible with arbitrary polygonal elements, distortion-tolerant, numerically stable without the need of extra stabilization terms (unlike other methods), and carry a natural a posteriori error estimator for adaptivity.
-They are useful in an array of applications ranging from topology optimization to crack propagation and geophysics. 
-The code is available at [www.polydpg.com](http://www.polydpg.com/).
-
-## Hydrodynamic stability
-
-I am interested in the global stability properties of classical flows, like plane Couette flow, which are known to have infinite linear stability limit.
-The method of choice is the energy method, which is over a century old, and no significant improvements have ocurred since then.
-It uses the energy as a Lyapunov functional.
-By using new techniques from optimization, we try to find new Lyapunov functionals by posing the fluid system as an uncertain dynamical system that can be rewritten as a semidefinite program (SDP) with sum-of-squares (SoS) constraints.
-
-### Surpassing the energy method
-
-By analyzing an idealized rotating flow we used these new optimization methods to prove the global stability of the flow for Reynolds numbers above the energy stability limit, thus finding a new lower bound for the global stability limit.
-
-
-<figure>
-  <img src="/assets/images/ResearchGlobalStability.png" alt="">
-  <figcaption>Using an SDP to find Lyapunov functionals that prove global stability, the energy method was outperformed on an idealized rotating flow problem (left). Yet to be published results show that the same techniques applied to 2D plane Couette flow may yield the first improvement in over 110 years (middle and right). </figcaption>
-</figure>
-
-### 2D plane Couette flow
-
-We analyzed 2D plane Couette flow, a very classical flow, whose only known lower bound for the global stability limit is the energy stability limit, established by Orr in 1907.
-We attempted to improve on the energy stability limit for a range of domain lengths, and expect to publish some of these results soon.
+Bats, order Chiroptera, is one of the most interesting and diverse orders of mammals. Not only are
+they intereesting due to their ability to fly and echolocate, but they are of interest to human
+health because they are the known or suspected reservoirs of several deadly human viruses,
+including SARS, Nipah, Hendra, and Ebola. Improving our understanding of bat cellular pathways can
+give us insight into how these viruses function in their natural hosts, leading the way for better
+combatting these diseases. I took on the challenge of performing an order Chiroptera meta-analysis
+of publically available DNA sequencing data and novel data we sequenced ourselves to perform
+phylogenetic and positive selection analyses. Positive selection, indicated by a dN/dS statistic
+value </geq>1, is a hallmark of genes and pathways which are subject to viral antagonism. We
+identified 299 such genes, which will be of interest for further investigation by the virology
+community. My collaborators have, in fact, already used the sequences of one gene family, NPC1, to
+identify one of the key amino acids in the host NPC1 protein which acts as a barrier to cell entry
+and infection from the Ebola virus.
