@@ -12,8 +12,8 @@ author_profile: true
 
 I just completed my Ph.D. in computational and applied mathematics at the [Institute for
 Computational Engineering and Sciences (ICES)](https://www.ices.utexas.edu/) in the The University
-of Texas at Austin, where I am supervised by [William H. Press](numerical.recipes) and [Ilya J.
-Finkelstein](finkelsteinlab.org). I am looking for postdoctoral opportunities in computational
+of Texas at Austin, where I am supervised by [William H. Press](http://www.numerical.recipes/whp) and [Ilya J.
+Finkelstein](http://www.finkelsteinlab.org). I am looking for postdoctoral opportunities in computational
 molecular biology at the moment. 
 
 I was awarded the Computational Science, Engineering, and Mathematics Fellowship for my studies at
@@ -32,13 +32,13 @@ develop high-throughput methods for looking at millions of CRISPR-DNA interactio
 This includes the Chip-Hybridized Association Mapping Platform (CHAMP), which repurposes Next
 Generation Sequencing chips to perform massively parallel assays on sequenced DNA, as well as new
 methods currently in development.  Along the way, I realized we needed higher-performing DNA
-barcodes than were available with current methods, i.e.  more barcodes using fewer bases with
+barcodes than were available with current methods, i.e.,  more barcodes using fewer bases with
 better error-correction properties and thus fewer demultiplexing errors. So, I developed the
 current state of the art DNA barcodes from first principles: Filled/truncated Right End Edit (FREE)
-barcodes. And I have also performed large-scale genomic and transcriptomic analyses to find gene
-families, construct phylogenies, and perform positive selection analysis in bats, with the goal of
-helping find genes and pathways which enable bats to to harbor several deadly human viruses.  Learn
-more details about my research [here](/research/).
+barcodes. I have also performed large-scale genomic and transcriptomic analyses to find orthologous
+gene families, infer phylogenies, and perform positive selection analysis in bats, with the
+goal of helping find genes and pathways which enable bats to to harbor several deadly human
+viruses.  Learn more details about my research [here](/research/).
 
 When I'm not doing research, my favorite thing in the world is to go see the world. I love
 travelling, learning languages, and meeting people. Closer to home, nothing beats weekend BBQ's
