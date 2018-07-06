@@ -22,22 +22,25 @@ Washington.
 
 My research is centered around developing high-throughput methods and results in molecular biology.
 The gold rush in molecular biology for exponentially improved insights and methods is in full
-swing, and I love being a part it.  My current research is in developing novel techniques for
-characterizing the CRISPR family of proteins, with the long-term goal of helping making
-gene-editing techniques safe for clinical use.  I work with a team from the Finkelstein lab to
-develop high-throughput methods for looking at millions of CRISPR-DNA interactions in parallel.
-This includes the Chip-Hybridized Affinity Mapping Platform (CHAMP), which repurposes Next
-Generation Sequencing chips to perform massively parallel assays on sequenced DNA, as well as new
-methods currently in development.  Along the way, I realized we needed higher-performing DNA
-barcodes than were available with current methods, i.e. more barcodes using fewer bases with better
-error-correction properties and thus fewer demultiplexing errors. So, I developed the current state
-of the art DNA barcodes from first principles: Filled/truncated Right End Edit (FREE) barcodes. And
-I have also performed large-scale genomic and transcriptomic analyses to find gene families,
-construct phylogenies, and perform positive selection analysis in bats, with the goal of helping
-find genes and pathways which enable bats to to harbor several deadly human viruses.  Learn more
-details about my research [here](/research/).
+swing, and I love being a part it.  My specialty is using computational and mathematical techniques
+to extract insight from large data sets and design better experiments. I have also done a small
+amount of bench work. My current research is in developing novel techniques for characterizing the
+CRISPR family of proteins, with the long-term goal of helping making gene-editing techniques safe
+for clinical use.  I work with a team from the Finkelstein lab to develop high-throughput methods
+for looking at millions of CRISPR-DNA interactions in parallel.  This includes the Chip-Hybridized
+Affinity Mapping Platform (CHAMP), which repurposes Next Generation Sequencing chips to perform
+massively parallel assays on sequenced DNA, as well as new methods currently in development.  Along
+the way, I realized we needed higher-performing DNA barcodes than were available with current
+methods, i.e.  more barcodes using fewer bases with better error-correction properties and thus
+fewer demultiplexing errors. So, I developed the current state of the art DNA barcodes from first
+principles: Filled/truncated Right End Edit (FREE) barcodes. And I have also performed large-scale
+genomic and transcriptomic analyses to find gene families, construct phylogenies, and perform
+positive selection analysis in bats, with the goal of helping find genes and pathways which enable
+bats to to harbor several deadly human viruses.  Learn more details about my research
+[here](/research/).
 
-When I'm not doing research, my favorite thing in the world is to see the world. I love travelling
-and learning languages. Closer to home, nothing beats weekend BBQ's with friends in the back yard.
-I also love listening to podcasts and audiobooks while going for walks. Shout out to 99 Percent
-Invisible, More Perfect by RadioLab, and the Harry Potter books as read by Stephen Fry.
+When I'm not doing research, my favorite thing in the world is to go see the world. I love
+travelling, learning languages, and meeting people. Closer to home, nothing beats weekend BBQ's
+with friends in the back yard.  I also love listening to podcasts and audiobooks while going for
+walks. Shout out to 99 Percent Invisible, More Perfect by RadioLab, and the Harry Potter books as
+read by Stephen Fry.
