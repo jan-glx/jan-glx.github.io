@@ -81,7 +81,7 @@ analytics:
 author:
   name             : "John Hawkins"
   avatar           : "/assets/images/avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Computational molecular biology, high-throughput DNA sequencing, high-dimensional analysis, machine learning, mathematical modeling, visualization"
+  bio              : "Computational molecular biology, integrative biology, high-throughput DNA sequencing, high-dimensional analysis, machine learning, mathematical modeling, visualization"
   location         : "Austin, Texas"
   email            : "hawkjo@gmail.com"
   uri              :
