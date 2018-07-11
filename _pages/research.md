@@ -9,8 +9,8 @@ toc_label: "Research"
 toc_icon: "gear"
 ---
 
-I am a computational molecular biologist and a mathematical scientist. Currently, my research is in
-three areas:
+I am a computational molecular and integrative biologist and mathematical scientist. Currently, my
+research is in three areas:
 - Massively parallel characterization of CRISPR specificity.
 - State of the art indel-correcting DNA barcodes.
 - Bat transcriptomics, phylogenetic history, and positive selection.
@@ -31,16 +31,20 @@ I worked with a team from the Finkelstein lab to develop the Chip-Hybridized Ass
 Platform (CHAMP), a massively parallel platform for characterizing protein-DNA binding
 interactions. It works by recovering Illumina sequencing chips after sequencing, performing further
 biochemical assays on the sequenced chip, and observing reactions with a total internal reflection
-fluorescence (TIRF) microscope.
+fluorescence (TIRF) microscope. I used Fourier methods, linear least squares, machine learning, and
+non-linear optimization to turn large-scale raw data into per-sequence binding specificity
+information.
 
 We used this platform to interrogate the target specificity of the most common CRISPR system in
-nature, the CRISPR Cascade complex. We fully characterized an extended 6 bp protospacer adjacent
-motif (PAM) and showed that while the canonical 3 bp are the most important, positions 4, 5, and 6
-can have a significant effect on intermediate PAMs. We also found a novel periodic reduction of
-specificity every 3 + 6*n* bases in the target sequence. We were then able to use our method to
-look at the binding specificity for a CRISPR protein across an entire human exome for the first
-time.  This technique can be used in a clinical setting to verify *in vitro* the safety of a
-proposed gene-therapy treatment on a per-patient basis.
+nature, the CRISPR Cascade complex. I visualized the binding specificity of several classes of
+sequences and developed mathematical and statistical models to characterize the Cascade complex
+specificity profile. We fully characterized an extended 6 bp protospacer adjacent motif (PAM) and
+showed that while the canonical 3 bp are the most important, positions 4, 5, and 6 can have a
+significant effect on intermediate PAMs. We also found a novel periodic reduction of specificity
+every 3 + 6*n* bases in the target sequence.  We were then able to use our method to look at the
+binding specificity for a CRISPR protein across an entire human exome for the first time.  This
+technique can be used in a clinical setting to verify *in vitro* the safety of a proposed
+gene-therapy treatment on a per-patient basis. 
 
 
 ## State of the Art Barcoding: FREE Barcodes
@@ -56,16 +60,17 @@ Previous methods have used Hamming or Levenshtein distance to try to correct som
 but neither of these metrics correctly accounts for insertions and deletions in DNA barcodes due to
 uncertainty in the location of the right end of the barcode.
 
-I developed and experimentally validated Filled/truncated Right End Edit (FREE Barcodes) to
-correctly account for the kinds of errors observed in real DNA barcodes. Because FREE barcodes
-correctly account for the kinds of errors seen in DNA barcodes, they are able to correct errors
-with higher accuracy than previous methods, using fewer bp for the same number of barcodes. I
-generated a single-error correcting barcode library with &gt;10<sup>6</sup> unique barcodes. And
-due to their construction, FREE barcodes can be easily concatenated. This allows for
-combinatorially large barcode libraries and/or arbitrarily low error rates with different
-strategies. I demonstrated these possibilities with an example library with &gt;10<sup>15</sup>
-barcodes and an example library with error rates of &lt;10<sup>-19</sup>. 
-
+I developed and experimentally validated Filled/truncated Right End Edit (FREE) barcodes to
+correctly account for the kinds of errors observed in real DNA barcodes. This required the
+development of new high-dimensional algorithms, finite field linear algebra, dynamic programming,
+and the proof of various properties of FREE divergence space. Because FREE barcodes correctly
+account for the kinds of errors seen in DNA barcodes, they are able to correct errors with higher
+accuracy than previous methods, using fewer bp for the same number of barcodes. I generated a
+single-error correcting barcode library with &gt;10<sup>6</sup> unique barcodes. And due to their
+construction, FREE barcodes can be easily concatenated. This allows for combinatorially large
+barcode libraries and/or arbitrarily low error rates with different strategies. I demonstrated
+these possibilities with an example library with &gt;10<sup>15</sup> barcodes and an example
+library with error rates of &lt;10<sup>-19</sup>. 
 
 
 ## Bat Phylogenetics and Positive Selection
