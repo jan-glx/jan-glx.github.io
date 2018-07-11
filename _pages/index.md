@@ -21,24 +21,19 @@ ICES, where I obtained my Masters and Ph.D. degrees. I previously earned a B.S. 
 B.S.E in Mechanical Engineering, and a B.A. in Humanities at Walla Walla University in Walla Walla,
 Washington.
 
-My research is centered around developing high-throughput methods and results in molecular biology.
-The gold rush in molecular biology for exponentially improved insights and methods is in full
-swing, and I love being a part of it.  My specialty is using computational and mathematical
-techniques to extract insight from large data sets and design better experiments. I have also done
-a small amount of bench work. My current research is in developing novel techniques for
-characterizing the CRISPR family of proteins, with the long-term goal of helping to make
-gene-editing techniques safe for clinical use.  I work with a team from the Finkelstein lab to
-develop high-throughput methods for looking at millions of CRISPR-DNA interactions in parallel.
-This includes the Chip-Hybridized Association Mapping Platform (CHAMP), which repurposes Next
-Generation Sequencing chips to perform massively parallel assays on sequenced DNA, as well as new
-methods currently in development.  Along the way, I realized we needed higher-performing DNA
-barcodes than were available with current methods, i.e.,  more barcodes using fewer bases with
-better error-correction properties and thus fewer demultiplexing errors. So I developed the
-current state of the art DNA barcodes from first principles: Filled/truncated Right End Edit (FREE)
-barcodes. I have also performed large-scale genomic and transcriptomic analyses to find orthologous
-gene families, infer phylogenies, and perform positive selection analysis in bats, with the
-goal of helping find genes and pathways which enable bats to to harbor several deadly human
-viruses.  Learn more details about my research [here](/research/).
+My research is centered around developing high-throughput methods and results in molecular and
+integrative biology.  The gold rush in molecular and integrative biology for exponentially improved
+insights and methods is in full swing, and I love being a part of it.  My specialty is using
+computational and mathematical techniques to extract insight from large data sets and design better
+experiments, and I have also done a small amount of bench work. My current research is in
+developing novel techniques for characterizing the CRISPR family of proteins, with the long-term
+goal of helping to make gene-editing techniques safe for clinical use. Along the way I also derived
+and designed state of the art indel-correcting DNA barcodes and performed one of the largest-scale
+phylogenetic and positive selection analyses of bats. For these projects I have used various
+mathematical and computational methods, including mathematical model development, Fourier methods,
+non-linear optimization, finite field linear algebra, machine learning, visualization, phylogenetic
+analysis, positive selection analysis, and algorithmic development for working in high-dimensional
+spaces.  Learn more details about my research [here](/research/).
 
 When I'm not doing research, my favorite thing in the world is to go see the world. I love
 travelling, learning languages, and meeting people. Closer to home, nothing beats weekend BBQ's
