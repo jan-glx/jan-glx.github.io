@@ -32,8 +32,8 @@ and designed state of the art indel-correcting DNA barcodes and performed one of
 phylogenetic and positive selection analyses of bats. For these projects I have used various
 mathematical and computational methods, including mathematical model development, Fourier methods,
 non-linear optimization, finite field linear algebra, machine learning, visualization, phylogenetic
-analysis, positive selection analysis, and algorithmic development for working in high-dimensional
-spaces.  Learn more details about my research [here](/research/).
+analysis, positive selection analysis, and algorithmic development in high-dimensional spaces.
+Learn more details about my research [here](/research/).
 
 When I'm not doing research, my favorite thing in the world is to go see the world. I love
 travelling, learning languages, and meeting people. Closer to home, nothing beats weekend BBQ's
