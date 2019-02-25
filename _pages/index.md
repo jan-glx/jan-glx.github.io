@@ -6,7 +6,7 @@ permalink: /
 author_profile: true
 ---
 
-<img src="/assets/images/IMG_1604.jpg" width="340px" alt="John Hawkins" align="right" />
+<img src="/assets/images/best.jpg" width="340px" alt="John Hawkins" align="right" />
 
 # About
 
