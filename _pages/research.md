@@ -75,8 +75,8 @@ library with error rates of &lt;10<sup>-19</sup>.
 
 ## Bat Phylogenetics and Positive Selection
 <figure>
-  <img src="/assets/images/dNdS.png" alt="">
-  <figcaption> Positive selection analysis for &gt;11,000 Chiropteran gene families. </figcaption>
+  <img src="/assets/images/cleanedmsas.png" alt="">
+  <figcaption> Improved alignments for phylogenetic and positive selection analyses. </figcaption>
 </figure>
 The order Chiroptera, the order of bats, is one of the most interesting and diverse orders of
 mammals. Not only are they interesting due to their ability to fly and echolocate, but they are of
@@ -85,10 +85,12 @@ viruses, including SARS, Nipah, Hendra, and Ebola. Improving our understanding o
 pathways can give us insight into how these viruses function in their natural hosts, leading the
 way for more effectively combatting these diseases.
 
-I performed an order Chiroptera meta-analysis of publically available DNA sequencing data and novel
-data we sequenced ourselves to perform phylogenetic and positive selection analyses. Positive
-selection, indicated by a dN/dS statistic value &gt;1, is a signature of genes which have a history
-of viral antagonism.  We identified 299 such genes, which will be of interest for further
-investigation by the virology community. My collaborators have, in fact, already used the sequences
-of one gene family, NPC1, to identify one of the key amino acids in the bat NPC1 protein which
-acts as a barrier to cell entry and infection from the Ebola virus.
+I performed an meta-analysis of publically available DNA sequencing data and novel data we
+sequenced ourselves to perform order-wide phylogenetic and positive selection analyses. To improve
+results of these analyses based on data from heterogenous public data sources, I developed a new
+statistical method called MIXR, Mismatching Isoform eXon Remover, for detecting and removing
+non-random alignment artifacts.  Positive selection, indicated by a dN/dS statistic value &gt;1, is
+a signature of genes which have a history of viral antagonism.  We identified 181 such genes, which
+will be of interest for further investigation by the virology community. My collaborators have, in
+fact, already used the sequences of one gene family, NPC1, to identify one of the key amino acids
+in the bat NPC1 protein which acts as a barrier to cell entry and infection from the Ebola virus.
