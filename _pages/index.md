@@ -10,16 +10,19 @@ author_profile: true
 
 # About
 
-I recently completed my Ph.D. in computational and applied mathematics at the [Institute for
-Computational Engineering and Sciences (ICES)](https://www.ices.utexas.edu/) in the The University
+I recently completed my Ph.D. in computational and applied mathematics at the [Oden Institute for
+Computational Engineering and Sciences](https://www.oden.utexas.edu/) in the The University
 of Texas at Austin, where I was supervised by [William H. Press](http://www.numerical.recipes/whp)
 and [Ilya J.  Finkelstein](http://www.finkelsteinlab.org). I am now starting a postdoctoral
-fellowship position with Oliver Stegle at EMBL and DKFZ in Heidelberg, Germany.
+fellowship position with [Oliver Stegle](https://www.embl.de/research/units/genome_biology/stegle/)
+at the European Molecular Biology Laboratory ([EMBL](https://www.embl.de)) and the German Cancer
+Research Center ([DKFZ](https://www.dkfz.de), Deutsches Krebsforschungszentrum) in Heidelberg,
+Germany.
 
 I was awarded the Computational Science, Engineering, and Mathematics Fellowship for my studies at
-ICES, where I obtained my Masters and Ph.D. degrees. I previously earned a B.S. in Mathematics, a
-B.S.E in Mechanical Engineering, and a B.A. in Humanities at Walla Walla University in Walla Walla,
-Washington.
+the Oden Institute, where I obtained my Masters and Ph.D. degrees. I previously earned a B.S. in
+Mathematics, a B.S.E in Mechanical Engineering, and a B.A. in Humanities at Walla Walla University
+in Walla Walla, Washington.
 
 My research is centered around developing high-throughput methods and results in molecular and
 integrative biology.  The gold rush in molecular and integrative biology for exponentially improved
