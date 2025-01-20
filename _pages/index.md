@@ -10,36 +10,10 @@ author_profile: true
 
 # About
 
-I recently completed my Ph.D. in computational and applied mathematics at the [Oden Institute for
-Computational Engineering and Sciences](https://www.oden.utexas.edu/) in the The University
-of Texas at Austin, where I was supervised by [William H. Press](http://www.numerical.recipes/whp)
-and [Ilya J.  Finkelstein](http://www.finkelsteinlab.org). I am now starting a postdoctoral
-fellowship position with [Oliver Stegle](https://www.embl.de/research/units/genome_biology/stegle/)
-at the European Molecular Biology Laboratory ([EMBL](https://www.embl.de)) and the German Cancer
-Research Center ([DKFZ](https://www.dkfz.de), Deutsches Krebsforschungszentrum) in Heidelberg,
-Germany.
+I am currently completing a Ph.D. in Computational Biology at the [German Cancer Research Center (DKFZ)](https://www.dkfz.de/), the [European Molecular Biology Laboratory (EMBL)](https://www.embl.org/), and Heidelberg University, under the supervision of [Oliver Stegle](https://steglelab.org/) and [Michael Boutros](https://www.dkfz.de/en/signaling/).
 
-I was awarded the Computational Science, Engineering, and Mathematics Fellowship for my studies at
-the Oden Institute, where I obtained my Masters and Ph.D. degrees. I previously earned a B.S. in
-Mathematics, a B.S.E in Mechanical Engineering, and a B.A. in Humanities at Walla Walla University
-in Walla Walla, Washington.
+Previously, I earned an M.Sc. and a B.Sc. in Molecular Biotechnology at Heidelberg University, Germany. During my studies, I gained practical experience through various research projects spanning neurobiology, machine learning and computer vision, optogenetics, synthetic biology, protein structure and interaction, and causal inference.
 
-My research is centered around developing high-throughput methods and results in molecular and
-integrative biology.  The gold rush in molecular and integrative biology for exponentially improved
-insights and methods is in full swing, and I love being a part of it.  My specialty is using
-computational and mathematical techniques to extract insight from large data sets and design better
-experiments, and I have also done a small amount of bench work. My current research is in
-developing novel techniques for characterizing the CRISPR family of proteins, with the long-term
-goal of helping to make gene-editing techniques safe for clinical use. Along the way I also derived
-and designed state of the art indel-correcting DNA barcodes and performed one of the largest-scale
-phylogenetic and positive selection analyses of bats. For these projects I have used various
-mathematical and computational methods, including mathematical model development, Fourier methods,
-non-linear optimization, finite field linear algebra, machine learning, visualization, phylogenetic
-analysis, positive selection analysis, and algorithmic development in high-dimensional spaces.
-Learn more details about my research [here](/research/).
+My current research focuses on developing high-throughput methods to investigate causal relationships between genotype and phenotype, uncovering gene regulation and function at scale. Beyond low-level processing of next-generation sequencing data, as well as analysis and visualization primarily in R and Python, I have applied a range of mathematical and computational methods, including probabilistic modeling, general machine learning, Bayesian deconvolution, empirical Bayes approaches, and the integration of high-dimensional data across modalities. Additionally, I have hands-on experience conducting single-cell experiments in the wet lab. Learn more about my research [here](/research/).
 
-When I'm not doing research, my favorite thing in the world is to go see the world. I love
-travelling, learning languages, and meeting people. Closer to home, nothing beats weekend BBQ's
-with friends in the back yard.  I also love listening to podcasts and audiobooks while going for
-walks. Shout out to 99 Percent Invisible, More Perfect by RadioLab, and the Harry Potter books as
-read by Stephen Fry.
+Outside of research, I enjoy dancing Swing and exploring nature with friends and family.

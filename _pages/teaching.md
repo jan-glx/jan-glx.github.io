@@ -6,18 +6,10 @@ permalink: /teaching/
 author_profile: true
 ---
 
-## The University of Texas at Austin
+## Heidelberg University
+### Teaching assistant
+- Tutor for practical course HP-F5 "Advanced Methods in Cell Biology" for M.Sc. programs Major Cancer Biology and Molecular and Cellular Biology of Heidelberg University.
+- Tutor for class Physical Chemistry II of the M.Sc. program Molecular Biotechnology of Heidelberg University (2015). 
 
-### Teaching Assistant
-
-- Public Policy and the Digitally Native Technologist (2016, William H. Press, [CS378H](http://wpressutexas.net/cs378h/index.php?title=CS378H_Public_Policy_and_the_Digitally_Native_Technologist))
-- Problem Solving: Molecular Biology/Epidemiology (2015, Marc Lewis, TC357)
-- Public Policy and the Digitally Native Technologist (2015, William H. Press, [CS378H](http://wpressutexas.net/cs378h/index.php?title=CS378H_Public_Policy_and_the_Digitally_Native_Technologist))
-- Statistical and Discrete Methods for Scientific Computing (2014, William H. Press, [CSE383M](http://wpressutexas.net/coursewiki/index.php?title=Main_Page))
-- Statistical and Discrete Methods for Scientific Computing (2013, William H. Press, [CSE383M](http://wpressutexas.net/coursewiki/index.php?title=Main_Page))
-
-### Mentor
-- McNair Scholars Program Mentor for undergraduate biochemistry and computer science major (2016-2017)
-
-### Teacher
-- Japanese Exchange and Teaching (JET) Program. High school English, Super Science track. (2010-2011)
+### Supervision
+- Supervision of 6-week internships part of the M.Sc. program Molecular Biotechnology of Heidelberg University (2019-2022). 

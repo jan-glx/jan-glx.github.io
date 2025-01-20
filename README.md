@@ -1,12 +1,13 @@
-# John Hawkins's website
+# Jan Gleixner's website
 
 This is intended to be my personal webpage, especially as it relates to my academic work. 
-You can expect to find links to my profile in the relevant academic databases (Google Scholar, ResearchGate, ORCID, GitHub, Stackoverflow, etc.) as well as a brief overview of my research, teaching, and publication history. 
-Please feel free to [browse the website](https://hawkjo.github.io/)!
+You can expect to find links to my profile in the relevant academic databases (Google Scholar, ResearchGate, ORCID, GitHub, Stackoverflow, etc.) as well as a brief overview of my research, and publication history. 
+Please feel free to [browse the website](https://jan-glx.github.io/)!
 
 ---
 
 ## Credits
+This Website is based on [John Hawkins's website](https://github.com/hawkjo/hawkjo.github.io).
 
 Credits to the original creator of the website template [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) and to the creator of [Academicons](http://jpswalsh.github.io/academicons/). Thanks!
 
