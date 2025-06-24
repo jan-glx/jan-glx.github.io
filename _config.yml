@@ -9,11 +9,11 @@ minimal_mistakes_skin    : "default" # "default", "air", "contrast", "dark", "di
 
 # Site Settings
 locale                   : "en"
-title                    : "John Hawkins"
+title                    : "Jan Gleixner"
 title_separator          : "-"
-name                     : "John Hawkins"
-description              : "John Hawkins's personal website"
-url                      : "https://hawkjo.github.io" # should not end with /
+name                     : "Jan Gleixner"
+description              : "Jan Gleixner's personal website"
+url                      : "https://jan-glx.github.io" # should not end with /
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -79,11 +79,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "John Hawkins"
+  name             : "Jan Gleixner"
   avatar           : "/assets/images/avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Computational molecular biology, integrative biology, high-throughput DNA sequencing, high-dimensional analysis, machine learning, mathematical modeling, visualization"
-  location         : "Austin, Texas"
-  email            : "hawkjo@gmail.com"
+  location         : "Heidelberg, Germany"
+  email            : "jan.gleixner@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
@@ -91,16 +91,16 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "hawkjo"
+  github           : "jan-glx"
   gitlab           :
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "hawkjo" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  linkedin         : "jan-gleixner-949116ab" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
   soundcloud       :
-  stackoverflow    : "3019508/hawkjo" # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
+  stackoverflow    : "1870254/jan-glx" # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
   twitter          :
@@ -183,6 +183,7 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate
+  - jekyll-include-cache
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
@@ -253,3 +254,5 @@ defaults:
       type: pages
     values:
       author_profile: true
+
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
