@@ -6,7 +6,7 @@ permalink: /
 author_profile: true
 ---
 
-<img src="/assets/images/best.jpg" width="340px" alt="John Hawkins" align="right" />
+<img src="/assets/images/best.jpg" width="340px" alt="Portait of Jan Gleixner" align="right" style="border: 10px solid #FFF; border-radius: 2px;margin-top: 30px;" />
 
 # About
 
