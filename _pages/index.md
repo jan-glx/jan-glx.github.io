@@ -10,7 +10,7 @@ author_profile: true
 
 # About
 
-I am currently completing a Ph.D. in Computational Biology at the [German Cancer Research Center (DKFZ)](https://www.dkfz.de/), the [European Molecular Biology Laboratory (EMBL)](https://www.embl.org/), and Heidelberg University, under the supervision of [Oliver Stegle](https://steglelab.org/) and [Michael Boutros](https://www.dkfz.de/en/signaling/).
+I completed a Ph.D. in computational biology at the [German Cancer Research Center (DKFZ)](https://www.dkfz.de/), the [European Molecular Biology Laboratory (EMBL)](https://www.embl.org/), and Heidelberg University, under the supervision of [Oliver Stegle](https://steglelab.org/) and [Michael Boutros](https://www.dkfz.de/en/signaling/). I am currently continuing my work there as a postdoctoral researcher.
 
 Previously, I earned an M.Sc. and a B.Sc. in Molecular Biotechnology at Heidelberg University, Germany. During my studies, I gained practical experience through various research projects spanning neurobiology, machine learning and computer vision, optogenetics, synthetic biology, protein structure and interaction, and causal inference.
 
