@@ -243,6 +243,23 @@
         </li>
       {% endif %}
 
+      {% if author.google_scholar %}
+        <li>
+          <a href="https://scholar.google.de/citations?user={{ author.google_scholar }}" itemprop="sameAs">
+            <i class="ai ai-google-scholar ai-fw"></i> Google Scholar
+          </a>
+        </li>
+      {% endif %}
+      
+      {% if author.ORCID %}
+        <li>
+          <a href="https://orcid.org/{{ author.ORCID }}" itemprop="sameAs">
+            <i class="ai ai-orcid ai-fw"></i> ORCID
+          </a>
+        </li>
+
+      {% endif %}
+
       {% include author-profile-custom-links.html %}
     </ul>
   </div>
