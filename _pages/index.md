@@ -6,7 +6,7 @@ permalink: /
 author_profile: true
 ---
 
-<img src="/assets/images/best.jpg" width="340px" alt="Portait of Jan Gleixner" align="right" style="margin-left: 30px; margin-top: 10px;" />
+<img src="/assets/images/Jan_Gleixner_lndscp.jpg" width="40%" alt="Portait of Jan Gleixner" align="right" style="margin-left: 5%; margin-top: 5%;" />
 
 # About
 
