@@ -1,0 +1,32 @@
+---
+permalink: /404.html
+layout: single
+title: "404: Page not found"
+sitemap: false
+---
+
+<p>The page you’re looking for doesn’t exist or may have been moved.</p>
+
+<nav aria-label="Helpful links">
+  <ul class="helpful-links">
+    <li><a href="{{ '/' | relative_url }}" rel="home" title="Go to the home page">Home</a></li>
+    <li><a href="{{ '/research/' | relative_url }}" title="Learn about current research">Research</a></li>
+    <li><a href="{{ '/publications/' | relative_url }}" title="View publications">Publications</a></li>
+    <li><a href="{{ '/teaching/' | relative_url }}" title="See teaching activities">Teaching</a></li>
+    <li><a href="{{ '/CV/' | relative_url }}" title="View or download CV">CV</a></li>
+    <li><a href="{{ '/sitemap.xml' | relative_url }}" rel="sitemap" title="View the site’s XML sitemap">Sitemap</a></li>
+  </ul>
+</nav>
+
+<p>
+  You can <a href="{{ '/' | relative_url }}" rel="home">return to the home page</a> or
+  <a
+    href="#"
+    onclick="
+      history.back();
+      return false;
+    "
+    title="Go back to the previous page"
+    >go back</a
+  >.
+</p>
