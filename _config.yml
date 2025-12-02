@@ -130,6 +130,10 @@ exclude:
   - Capfile
   - CHANGELOG
   - config
+  - screenshot.png
+  - screenshot-layouts.png
+  - *.gem
+  - *.txt
   - Gemfile
   - Gruntfile.js
   - gulpfile.js
