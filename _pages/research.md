@@ -3,6 +3,8 @@ title: "Research"
 layout: single
 sitemap: true
 permalink: /research/
+image: "/assets/images/causal-mediators.svg"
+last_modified_at: 2025-12-02
 author_profile: true
 toc: true
 toc_label: "Research"
