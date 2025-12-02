@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jan.gleixner.xyz/sitemap.xml
