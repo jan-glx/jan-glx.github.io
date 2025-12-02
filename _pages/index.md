@@ -3,6 +3,7 @@ title: ""
 layout: archive
 sitemap: true
 permalink: /
+image: "/assets/images/Jan_Gleixner_prtrt.jpg"
 author_profile: true
 ---
 
