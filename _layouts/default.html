@@ -15,6 +15,7 @@
   </head>
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
+  <p id="fcp-anchor" aria-hidden="true" style="position:absolute;top:0;left:0;width:1px;height:1px;overflow:hidden;font-size:1px;line-height:1;">.</p>
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}
