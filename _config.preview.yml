@@ -1,0 +1,5 @@
+# Preview-only configuration (off-domain)
+# This avoids cross-origin / ORB issues when previewing under aishell.gleixner.xyz
+
+url: ""
+baseurl: "/output/site"

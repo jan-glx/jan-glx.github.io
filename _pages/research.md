@@ -21,7 +21,7 @@ toc_icon: "gear"
     aria-label="Illustration of single-cell editing outcomes with multiple outcomes per gRNA"
 	style="display:block;width:100%;height:auto;max-width:100%;">
     <!-- Fallback: shown if SVG can't load -->
-    <img src="/assets/images/CRISPR%20editing%20outcomes.svg" alt="Illustration of single-cell editing outcomes">
+    <img src="{{ site.baseurl }}/assets/images/CRISPR%20editing%20outcomes.svg" alt="Illustration of single-cell editing outcomes">
   </object>
   <figcaption>
     One guide RNA, multiple possible editing outcomes across single cells.
@@ -39,7 +39,7 @@ CRISPR editing in pooled single-cell screens generates a variety of outcomes at 
     role="img"
     aria-label="Cell-type specificity of perturbation effects"
 	style="display:block;width:100%;height:auto;max-width:100%;">
-    <img src="/assets/images/cell-type-specificity.svg" alt="Cell-type specificity of perturbation effects">
+    <img src="{{ site.baseurl }}/assets/images/cell-type-specificity.svg" alt="Cell-type specificity of perturbation effects">
   </object>
   <figcaption>
     Perturbation effects are cell state– and lineage–dependent; testing whether responses differ significantly is essential for interpretation
@@ -57,7 +57,7 @@ We evaluate how perturbations impact distinct cellular and patient contexts. In 
     role="img"
     aria-label="Causal inference of perturbation effects"
 	style="display:block;width:100%;height:auto;max-width:100%;">
-    <img src="/assets/images/causal-mediators.svg" alt="Causal inference of perturbation effects">
+    <img src="{{ site.baseurl }}/assets/images/causal-mediators.svg" alt="Causal inference of perturbation effects">
   </object>
   <figcaption>
     Estimating total causal effects using observed editing outcomes and transcriptomic responses.
