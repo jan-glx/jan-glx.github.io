@@ -3,11 +3,28 @@ title: ""
 layout: archive
 sitemap: true
 permalink: /
-image: "{{ site.baseurl }}/assets/images/Jan_Gleixner_prtrt.jpg"
+image: "{{ site.baseurl }}/assets/images/generated/Jan_Gleixner_prtrt-400.webp"
 author_profile: true
 ---
 
-<img src="/assets/images/Jan_Gleixner_lndscp.jpg" width="40%" alt="Portait of Jan Gleixner" align="right" style="margin-left: 5%; margin-top: 5%;" />
+<picture style="float:right; margin-left:5%; margin-top:5%;">
+  <source
+    type="image/webp"
+    srcset="
+      {{ site.baseurl }}/assets/images/generated/Jan_Gleixner_lndscp-400.webp 400w,
+      {{ site.baseurl }}/assets/images/generated/Jan_Gleixner_lndscp-800.webp 800w,
+      {{ site.baseurl }}/assets/images/generated/Jan_Gleixner_lndscp-1600.webp 1600w
+    "
+    sizes="(max-width: 768px) 90vw, 376px">
+
+  <img
+    src="{{ site.baseurl }}/assets/images/Jan_Gleixner_lndscp.jpg"
+    width="376"
+    height="251"
+    alt="Portrait of Jan Gleixner"
+    loading="eager"
+    decoding="async">
+</picture>
 
 # About
 
