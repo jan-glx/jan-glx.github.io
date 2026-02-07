@@ -253,4 +253,10 @@ defaults:
     values:
       author_profile: true
 
+  # Exclude all assets from sitemap
+  - scope:
+      path: "assets/**"
+    values:
+      sitemap: false
+
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
