@@ -1,15 +1,20 @@
 ---
-permalink: /CV/
+title: "Curriculum vitae"
+layout: archive
+sitemap: true
+author_profile: true
+permalink: /cv/
 ---
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="refresh" content="0; url=/cv/">
-    <link rel="canonical" href="/cv/">
-    <title>Redirecting…</title>
-  </head>
-  <body>
-    <p>Redirecting to <a href="/cv/">/cv/</a>…</p>
-  </body>
-</html>
+
+[Click here to download the pdf file](/assets/documents/cv_jan_gleixner.pdf).
+
+<object data="/assets/documents/cv_jan_gleixner.pdf"
+        type="application/pdf"
+        width="100%"
+        height="700px">
+  <p>
+    It appears you don't have a pdf plugin for this browser.
+    You can <a href="/assets/documents/cv_jan_gleixner.pdf">click here to
+    download the pdf file.</a>
+  </p>
+</object>
