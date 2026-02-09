@@ -6,16 +6,28 @@
 
 <div itemscope itemtype="http://schema.org/Person">
 
+
   {% if author.avatar %}
     <div class="author__avatar">
-      {% if author.avatar contains "://" %}
-        <img src="{{ author.avatar }}" alt="{{ author.name }}" itemprop="image">
-      {% else %}
-        <img src="{{ author.avatar | absolute_url }}" class="author__avatar" alt="{{ author.name }}" itemprop="image">
-      {% endif %}
+      <picture>
+        <source type="image/webp"
+          srcset="
+            {{ author.avatar | absolute_url | replace: '/assets/images/', '/assets/images/generated/' | replace: '.jpg', '-400.webp' }} 400w,
+            {{ author.avatar | absolute_url | replace: '/assets/images/', '/assets/images/generated/' | replace: '.jpg', '-800.webp' }} 800w,
+            {{ author.avatar | absolute_url | replace: '/assets/images/', '/assets/images/generated/' | replace: '.jpg', '-1600.webp' }} 1600w"
+          sizes="(min-width: 64em) 110px, 36px">
+
+        <img
+          src="{{ author.avatar | absolute_url }}"
+          alt="{{ author.name }}"
+          itemprop="image"
+          loading="lazy"
+          decoding="async"
+          width="110"
+          height="110">
+      </picture>
     </div>
   {% endif %}
-
   <div class="author__content">
     <h3 class="author__name" itemprop="name">{{ author.name }}</h3>
     {% if author.bio %}
